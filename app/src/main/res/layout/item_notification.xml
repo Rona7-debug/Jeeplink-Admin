@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <View
+        android:id="@+id/vAccent"
+        android:layout_width="4dp"
+        android:layout_height="48dp"
+        android:background="#1246C2"
+        android:layout_marginEnd="12dp" />
+
+    <ImageView
+        android:id="@+id/ivNotifIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:tint="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="6dp">
+
+        <TextView
+            android:id="@+id/tvNotifTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Feedback"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="#09215C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvNotifMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User submitted feedback"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="#64748B"
+            android:textSize="13sp"
+            android:layout_marginTop="2dp"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tvNotifTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mar 22, 2026 • 02:30 PM"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="#94A3B8"
+            android:textSize="11sp"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

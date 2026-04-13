@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "542574075550",
+    "project_id": "jeeplink-fe466",
+    "storage_bucket": "jeeplink-fe466.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542574075550:android:3d2deaf54e62e27be3658f",
+        "android_client_info": {
+          "package_name": "com.amu.jeeplink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542574075550-s7kvovb35c5fqfjs6k0ujvn0ismhhq90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amu.jeeplink",
+            "certificate_hash": "7676c03a63cb26a7c75d91961a2e060621a3dbc2"
+          }
+        },
+        {
+          "client_id": "542574075550-6u4rda00ma42vrg007j0pjpcr1719i68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV-rjMb1P76Or4fYhSd_Do8O2uklkMJA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542574075550-6u4rda00ma42vrg007j0pjpcr1719i68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542574075550:android:bad8a096f8fddfbde3658f",
+        "android_client_info": {
+          "package_name": "com.amu.jeeplinkadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542574075550-6u4rda00ma42vrg007j0pjpcr1719i68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV-rjMb1P76Or4fYhSd_Do8O2uklkMJA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542574075550-6u4rda00ma42vrg007j0pjpcr1719i68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

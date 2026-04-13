@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.JeeplinkAdmin" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1246C2</item>
+    </style>
+
+    <style name="Theme.JeeplinkAdmin" parent="Base.Theme.JeeplinkAdmin" />
+
+    <style name="CustomDialogTheme" parent="Theme.Material3.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+</resources>
